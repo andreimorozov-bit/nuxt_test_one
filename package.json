@@ -7,7 +7,23 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "devDependencies": {
+  "devDependencies": {  
+    "@nuxtjs/tailwindcss": "^6.0.1",
+    "@types/animejs": "^3.1.6",  
     "nuxt": "3.0.0-rc.12"
+  },
+  "dependencies": {
+    "@chenfengyuan/vue-countdown": "^2.1.0",
+    "@headlessui/vue": "^1.7.3",
+    "@pinia/nuxt": "^0.4.3",
+    "animejs": "^3.2.1",
+    "matrix-js-sdk": "^20.1.0",   
+    "nodemailer": "^6.8.0",
+    "pinia": "^2.0.23",
+    "request": "^2.88.2",
+    "swiper": "^8.4.2",
+    "telegram-bot-api": "^2.0.1",
+    "vue": "^3.2.41",
+    "yandex-metrika-vue3": "^1.1.4"
   }
 }
