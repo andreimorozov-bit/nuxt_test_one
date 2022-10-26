@@ -1,35 +1,35 @@
 <template>
   <div
-    class="flex sticky top-0 z-20 w-full px-[12px] sm:px-3 md:px-2 h-[64px] justify-center md:justify-center items-center bg-black text-neutral-200"
+    class="flex sticky top-0 z-20 w-full h-[64px] justify-center items-center bg-zinc-900 text-neutral-200"
   >
-    <div class="flex w-[1200px] pb-[2px] justify-between items-center">
+    <div class="flex w-[1200px] px-[8px] justify-stretch items-center">
       <div
-        class="cursor-pointer text-bold text-fuchsia-500 font-bold text-[22px] uppercase hover:text-fuchsia-400 transition"
+        class="flex w-fit cursor-pointer text-bold text-fuchsia-500 font-bold text-[22px] uppercase whitespace-nowrap hover:text-fuchsia-400 transition"
         @click="handleLogoClick"
       >
         fancy logo
       </div>
-      <div class="flex justify-between w-fit md:w-[440px] 2lg:w-[440px]">
+      <div class="flex gap-x-[24px] justify-center w-full">
         <div
-          class="xl:mx-0 hidden md:block cursor-pointer text-teal-500 hover:text-teal-400 transition"
+          class="xl:mx-0 hidden md:block cursor-pointer text-amber-500 hover:text-amber-400 transition"
           @click="handleCatsClick"
         >
           Cats
         </div>
         <div
-          class="hidden md:block cursor-pointer text-teal-500 hover:text-teal-400 transition"
+          class="hidden md:block cursor-pointer text-amber-500 hover:text-amber-400 transition"
           @click="handleDoorClick"
         >
           Door
         </div>
         <div
-          class="hidden md:block cursor-pointer text-teal-500 hover:text-teal-400 transition"
+          class="hidden md:block cursor-pointer text-amber-500 hover:text-amber-400 transition"
           @click="handleYellowClick"
         >
           Yellow
         </div>
         <div
-          class="hidden md:block cursor-pointer text-teal-500 hover:text-teal-400 transition"
+          class="hidden md:block cursor-pointer text-amber-500 hover:text-amber-400 transition"
           @click="handleTomorrowClick"
         >
           Tomorrow
