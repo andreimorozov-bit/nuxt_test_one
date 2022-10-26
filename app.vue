@@ -1,6 +1,6 @@
 <template>
-  <div class="flex w-full h-screen bg-zinc-700">
-    <div class="text-[32px] text-elred-500">test</div>
-    <div class="text-[32px] text-emerald-500">text</div>
+  <div class="min-h-screen bg-slate-800">
+    <TopNavbar />
+    <NuxtPage />
   </div>
 </template>
