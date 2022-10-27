@@ -76,7 +76,69 @@
         </div>
       </div>
     </div>
+    <div class="flex justify-center mt-[80px]">
+      <ClientOnly>
+        <swiper
+          :modules="modules"
+          :slides-per-view="1"
+          :space-between="40"
+          :autoplay="{
+            delay: 3000,
+            disableOnInteraction: false,
+          }"
+          @swiper="onSwiperCats"
+          class="flex justify-center w-[500px]"
+        >
+          <swiper-slide
+            v-for="item in catsPhotos"
+            :key="item.url"
+            class="flex justify-center"
+          >
+            <div class="w-[600px] h-[400px]">
+              <img :src="item.url" />
+            </div>
+          </swiper-slide>
+        </swiper>
+      </ClientOnly>
+    </div>
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+// import Swiper core and required modules
+import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper";
+// Import Swiper Vue.js components
+import { Swiper, SwiperSlide, useSwiper } from "swiper/vue";
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+import "swiper/css/scrollbar";
+
+const swiperInstances = reactive({
+  swiperCatsInstance: {} as typeof Swiper,
+});
+
+const catsPhotos = ref([
+  {
+    url: "cat-g5bc8efedb_640.jpg",
+  },
+  {
+    url: "cat-g7c52ce6f8_640.jpg",
+  },
+  {
+    url: "cat-g282a8832a_640.jpg",
+  },
+  {
+    url: "cat-gb52e4c930_640.jpg",
+  },
+  {
+    url: "kitten-g9c1fee90b_640.jpg",
+  },
+]);
+
+const onSwiperCats = (swiper) => {
+  swiperInstances.swiperCatsInstance = swiper;
+};
+
+const modules = [Navigation, Pagination, Scrollbar, A11y, Autoplay];
+</script>
