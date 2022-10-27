@@ -30,6 +30,50 @@
             </div>
           </div>
         </div>
+        <div class="flex mt-[24px]">
+          <div class="text-amber-500">
+            <IconPedalBike class="text-green-500" />
+          </div>
+          <div class="flex flex-col ml-[16px]">
+            <div class="text-[20px] font-semibold text-amber-500">
+              Performed suspicion
+            </div>
+            <div class="mt-[12px] text-[16px] text-sky-500">
+              Newspaper or in tolerably education enjoyment. Extremity excellent
+              certainty discourse sincerity no he so resembled. Joy house worse
+              arise total boy but.
+            </div>
+          </div>
+        </div>
+        <div class="flex mt-[24px]">
+          <div class="text-amber-500">
+            <IconHistoryEdu class="text-green-500" />
+          </div>
+          <div class="flex flex-col ml-[16px]">
+            <div class="text-[20px] font-semibold text-amber-500">
+              Prepared is me marianne
+            </div>
+            <div class="mt-[12px] text-[16px] text-sky-500">
+              Wonder an unable except better stairs do ye admire. His and eat
+              secure sex called esteem praise.
+            </div>
+          </div>
+        </div>
+        <div class="flex mt-[24px]">
+          <div class="text-amber-500">
+            <IconLocalFlorist class="text-green-500" />
+          </div>
+          <div class="flex flex-col ml-[16px]">
+            <div class="text-[20px] font-semibold text-amber-500">
+              But why smiling man
+            </div>
+            <div class="mt-[12px] text-[16px] text-sky-500">
+              Chiefly can man her out believe manners cottage colonel unknown.
+              Solicitude it introduced companions inquietude me he remarkably
+              friendship at.
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
