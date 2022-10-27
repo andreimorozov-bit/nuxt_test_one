@@ -23,8 +23,15 @@
       <div class="mt-[40px] text-[16px] md:text-[24px] text-sky-500">
         The door to karma cleaning service for yellow cats opens tomorrow
       </div>
+      <div class="flex w-full mt-[64px]">
+        <div
+          class="flex px-[32px] py-[12px] rounded-[10px] bg-amber-500 text-[18px] font-semibold font-zinc-900 hover:bg-amber-400 transition cursor-pointer"
+        >
+          very important button
+        </div>
+      </div>
       <div
-        class="mt-[56px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[32px]"
+        class="mt-[140px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[32px]"
       >
         <div
           class="flex flex-col p-[16px] items-center justify-center w-full h-full bg-zinc-900 rounded-[20px]"
